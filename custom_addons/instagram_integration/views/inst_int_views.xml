@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- <record id="first_order_tree_custom" model="ir.ui.view">
+        <field name="name">first.order.tree.custom</field>
+        <field name="model">inst_int.model</field>
+        <field name="priority">1</field>
+        <field name="arch" type="xml">
+            <list string="Sales Orders" sample="1">
+                
+                <field name="name" />
+                <field name="description" />
+
+            </list>
+        </field>
+    </record>
+
+    <record id="view_inst_int_model_form" model="ir.ui.view">
+        <field name="name">inst_int.model.form</field>
+        <field name="model">inst_int.model</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                <group>
+                    <field name="name" />
+                    <field name="description" />
+                </group>
+                </sheet>
+            </form>
+        </field>
+    </record> -->
+
+    <!-- Action -->
+    <record id="action_inst_int_model" model="ir.actions.act_window">
+        <field name="name">Custom Models</field>
+        <field name="res_model">inst_int.model</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p>Create and manage your custom models here.</p>
+        </field>
+    </record>
+
+    <!-- Menu Item -->
+    <!-- <menuitem 
+        id="menu_inst_int_model" 
+        name="Instagram Intergration" 
+        parent="crm.crm_menu_root"
+        action="action_inst_int_model" 
+        sequence="10" 
+    /> -->
+
+    <!-- Root Menu -->
+    <menuitem id="menu_inst_int_model_root" name="Instagram Integration" sequence="10"/>
+
+</odoo>
