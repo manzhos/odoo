@@ -19,6 +19,6 @@
         </record> -->
 
         <menuitem id="whatsapp_menu" name="WhatsApp" sequence="10"/>
-        <menuitem id="whatsapp_integration_menu" name="WhatsApp Integration" parent="whatsapp_menu" action="action_whatsapp_integration"/>
+        <!-- <menuitem id="whatsapp_integration_menu" name="WhatsApp Integration" parent="whatsapp_menu" action="action_whatsapp_integration"/> -->
     </data>
 </odoo>
